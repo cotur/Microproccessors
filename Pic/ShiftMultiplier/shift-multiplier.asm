@@ -1,0 +1,86 @@
+	LIST p=16F777A
+	INCLUDE "P16F877A.INC"
+
+	CBLOCK 0x20
+		sayi
+		sA ; carpan
+		sB ; carpilan
+		sonuc
+	ENDC
+
+
+	ORG 0x00
+	GOTO START
+
+START
+	CLRF PORTB
+	CLRF PORTD
+	BSF STATUS,5
+	MOVLW b'11111111'
+	MOVWF TRISB
+	CLRF TRISD
+	BCF STATUS,5
+
+CHECK
+	MOVLW b'00000100'
+	MOVWF sayi ; 4 bitlik çarpim oldugu için sayimiz 4
+	CLRF sonuc ; sonucu temizledik
+	CALL SET_A ; çarpan okundu
+	CALL SET_B ; çarpilan okundu
+	MOVFW sA  ; çarpan W'a aktarildi
+	CALL CARP
+	MOVFW sonuc
+	MOVWF PORTD
+	
+	GOTO CHECK
+
+
+SET_A
+	CLRW
+	CLRF sA
+	BTFSC PORTB,0
+	ADDLW b'00001000'
+	BTFSC PORTB,1
+	ADDLW b'00000100'
+	BTFSC PORTB,2
+	ADDLW b'00000010'
+	BTFSC PORTB,3
+	ADDLW b'00000001'
+
+
+	MOVWF sA	
+
+	RETURN
+
+SET_B
+	CLRW
+	CLRF sB
+	BTFSC PORTB,4
+	ADDLW b'00001000'
+	BTFSC PORTB,5
+	ADDLW b'00000100'
+	BTFSC PORTB,6
+	ADDLW b'00000010'
+	BTFSC PORTB,7
+	ADDLW b'00000001'
+
+
+	MOVWF sB
+
+	RETURN
+
+
+CARP
+	BTFSC sB,0
+	ADDWF sonuc,1 ; eger ilk bit 1 ise topla
+	
+	RLF sA,0
+	RRF sB,1
+
+	DECFSZ sayi
+	GOTO CARP
+		
+	
+	RETURN
+
+END

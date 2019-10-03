@@ -1,0 +1,38 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Aug 21 14:57:38 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x00002a
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000014      
+            21 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    CHECK   0x00000a    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+                    START   0x000001    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+                   SWITCH   0x000011    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+                WFRELEASE   0x000011    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000001    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+                    CHECK   0x00000a    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+                   SWITCH   0x000011    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+                WFRELEASE   0x000011    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\buton\button.asm
+
+

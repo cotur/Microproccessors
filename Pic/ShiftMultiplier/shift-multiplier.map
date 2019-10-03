@@ -1,0 +1,40 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu Aug 22 13:06:31 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000062
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000030      
+            49 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     CARP   0x00002a    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    CHECK   0x000008    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    SET_A   0x000012    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    SET_B   0x00001e    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    START   0x000001    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000001    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    CHECK   0x000008    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    SET_A   0x000012    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                    SET_B   0x00001e    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+                     CARP   0x00002a    program     static C:\Users\ahmet\OneDrive\Masaüstü\PIC\odevler\carpim\carpici.asm
+
+

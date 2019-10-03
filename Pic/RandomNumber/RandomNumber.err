@@ -1,0 +1,4 @@
+Message[302] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\RANDOM\RANDOM.ASM 16 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\RANDOM\RANDOM.ASM 17 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\RANDOM\RANDOM.ASM 21 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[205] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\RANDOM\RANDOM.ASM 41 : Found directive in column 1. (END)

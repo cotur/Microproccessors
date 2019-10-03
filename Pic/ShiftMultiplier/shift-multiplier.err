@@ -1,0 +1,5 @@
+Warning[215] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\CARPIM\CARPICI.ASM 1 : Processor superseded by command line.  Verify processor symbol.
+Message[302] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\CARPIM\CARPICI.ASM 20 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\CARPIM\CARPICI.ASM 21 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\CARPIM\CARPICI.ASM 80 : Using default destination of 1 (file).
+Warning[205] C:\USERS\AHMET\ONEDRIVE\MASAüSTü\PIC\ODEVLER\CARPIM\CARPICI.ASM 86 : Found directive in column 1. (END)
